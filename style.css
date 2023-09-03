@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Bricolage Grotesque', sans-serif;
+    border: 1px solid black;
 }
 
 .nav{
@@ -48,6 +49,7 @@ img, iframe{
 #menu:checked ~ .nav_menu{
     display: flex;
     position: fixed;
+    z-index: 50;
 }
 #menu:checked ~ .nav_hamburguesa{
     display: none;
@@ -82,7 +84,7 @@ img, iframe{
 .portada_todo div{
     position: absolute;
     z-index: 2;
-    padding: 11rem;
+    padding-bottom: 11rem;
 }
 h1{
     font-size: 64px;
